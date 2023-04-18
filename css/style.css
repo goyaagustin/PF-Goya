@@ -1,0 +1,36 @@
+header {
+  background-color: rgb(235, 231, 231);
+}
+header img {
+  padding: 20px;
+}
+header h1 {
+  color: rgb(224, 132, 132);
+}
+header h3 {
+  color: rgb(158, 111, 111);
+}
+
+nav {
+  margin: 5px;
+  padding: 10px;
+}
+
+section {
+  margin: 10px;
+}
+section h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(228, 210, 210);
+  height: 100px;
+}
+footer h4 {
+  display: flexbox;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
