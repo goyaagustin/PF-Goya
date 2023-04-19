@@ -8,11 +8,14 @@ header {
 nav {margin: 5px; padding: 10px;}
 
 section {
-    margin: 10px;
-    h3 {text-align: center;}}
+    margin: 20px;
+    h3 {text-align: center;}
+    h4 {text-align: center;}
+}
 
 footer {
     background-color: rgb(228, 210, 210);
     height: 100px;
     h4 {display:flexbox; justify-content: space-around;margin: 10px;}
 }
+
