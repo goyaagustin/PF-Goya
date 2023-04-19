@@ -43,4 +43,12 @@ footer h4 {
   margin: 10px;
 }
 
+footer {
+  background-image: linear-gradient(to bottom, #f5cd66, rgb(244, 244, 185));
+}
+
+header {
+  background-image: radial-gradient(circle, #f4cf73, rgb(229, 229, 183));
+}
+
 /*# sourceMappingURL=style.css.map */

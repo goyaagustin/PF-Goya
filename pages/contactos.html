@@ -6,6 +6,7 @@
     <meta name="description" content="Página del Dr. Goya médico psiquiatra para solicitar turno para consultorios externos y para incluirse en programa de reprocann">
     <meta name="keywords" content="Psiquiatría, ansiedad, depresion, turno, consultorio">
     <title>Contactos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     </head>
@@ -14,21 +15,21 @@
   <header>
     <div class="container">
         <div class="row d-flex justify-content-center m-3">
-          <div class="col-12 col-xl-12 d-flex justify-content-center">
+          <div class="col-12 col-xl-12 d-flex justify-content-center" data-aos="zoom-out">
             <img class="w-25 justify-content-center" src="../images/profile-pic-3.png" alt="Goya">
           </div>     
         </div>
         <div class="row">
-            <div class="col-12 col-xl-12 d-flex justify-content-center">
+            <div class="col-12 col-xl-12 d-flex justify-content-center" data-aos="zoom-out">
             <h1>Agustín Tomás Goya</h1>
         </div>
         <div class="row">
-            <div class="col-12 col-xl-12 d-flex justify-content-center">
+            <div class="col-12 col-xl-12 d-flex justify-content-center" data-aos="zoom-out">
             <h3>Médico Psiquiatra</h3>
         </div>
     </div> 
   </header>
-  <nav>
+  <nav data-aos="zoom-out">
         <div class="row">
             <div class="col-12 col-xl-12">
                 <div class="shadow p-3 mb-5 bg-body rounded">
@@ -65,7 +66,7 @@
             </div>
         </div>
   </nav>
-  <section>
+  <section data-aos="zoom-out">
         <div class="row">
             <div class="col-12 col-xl-12">
                 <h3>Contacto</h3>
@@ -77,24 +78,24 @@
     <li class="contactos p-2"><img src="../images/linkedin.png" alt="icon in" height="25px"> Goya Agustín</li>
     </ul>
 
-    <div class="mb-3">
+    <div class="mb-3" data-aos="zoom-out">
         <label for="exampleFormControlInput1" class="form-label">Dirección de e-mail</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
        
-    <div class="mb-3">
+    <div class="mb-3" data-aos="zoom-out">
         <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
-    <select class="form-select mb-2" aria-label="Default select example">
+    <select class="form-select mb-2" aria-label="Default select example" data-aos="zoom-out">
         <option selected>¿En qué puedo ayudarte?</option>
         <option value="1">Solicitar turno</option>
         <option value="2">Dejar comentario</option>
         <option value="3">Averiguar sobre Reprocann</option>
       </select>
 
-    <div>
+    <div data-aos="zoom-out">
             <p>
                 <input type="submit" value="Enviar mensaje">
                 <input type="reset" value="Comenzar de nuevo">
@@ -103,12 +104,16 @@
     </div>
   </section>
 
-        <footer class="row">
+        <footer class="row" data-aos="zoom-out">
             <div class="col-12 col-xl-12 d-flex justify-content-center">
               Copyright
             </div>
         </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
