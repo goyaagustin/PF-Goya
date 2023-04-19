@@ -29,18 +29,27 @@ section .contactos {
   list-style: none;
   margin-left: 20px;
 }
-section .mb-3 .form-select {
+section .mb-3, section .form-choice {
   width: 40%;
+}
+section .fotosconsul {
+  height: 200px;
+}
+section .carousel-inner {
+  height: 400px;
+}
+section .consultorio {
+  margin: 20px;
 }
 
 footer {
   background-color: rgb(228, 210, 210);
   height: 100px;
 }
-footer h4 {
+footer h6 {
   display: flexbox;
   justify-content: space-around;
-  margin: 10px;
+  margin: 30px;
 }
 
 footer {
