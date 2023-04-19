@@ -25,6 +25,13 @@ section h3 {
 section h4 {
   text-align: center;
 }
+section .contactos {
+  list-style: none;
+  margin-left: 20px;
+}
+section .mb-3 .form-select {
+  width: 40%;
+}
 
 footer {
   background-color: rgb(228, 210, 210);
