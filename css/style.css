@@ -3,6 +3,8 @@ header {
 }
 header img {
   padding: 20px;
+  min-width: 200px;
+  min-height: 200px;
 }
 header h1 {
   color: rgb(224, 132, 132);
