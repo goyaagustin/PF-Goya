@@ -32,13 +32,15 @@ section .contactos {
   margin-left: 20px;
 }
 section .mb-3, section .form-choice {
-  width: 40%;
+  width: 80%;
+  min-width: 60%;
 }
 section .fotosconsul {
   height: 200px;
 }
 section .carousel-inner {
-  height: 400px;
+  max-height: 400px;
+  margin-block: 10px;
 }
 section .consultorio {
   margin: 20px;
